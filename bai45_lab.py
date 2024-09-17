@@ -5,6 +5,7 @@ Created on Sat Sep 14 17:33:32 2024
 @author: MINH NHUT
 """
 print("Tính x + (x^2)/(1+2) + (x^3)/(1+2+3) ... + (x^n)/(1+2+3+...+n)")
+
 x = float(input("Nhập vào số x: "))
 n = int(input("Nhập vào số nguyên n: "))
 tinh = 0
