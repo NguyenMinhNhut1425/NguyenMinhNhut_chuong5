@@ -9,6 +9,8 @@ x = float(input("Nhập vào số x: "))
 n = int(input("Nhập vào số nguyên n: "))
 tinh = 0
 n_tang = 0
+while n <= 0:
+    n = int(input("Nhập lại n là số nguyên dương: "))
 for i in range (1, n + 1):
     n_tang += i
     tinh += (x ** i) / n_tang

@@ -7,6 +7,8 @@ Created on Sat Sep 14 17:05:24 2024
 
 n = int(input("Nhập vào số nguyên n để tính(1/2 + 1/4 + 1/6 + ... + 1/2n) "))
 tinh = 0
+while n <= 0:
+    n = int(input("Nhập lại n là số nguyên dương: "))
 for i in range (1, n + 1):
     tinh += 1 / (2 * i)
 print("Kết quả là: ",tinh)

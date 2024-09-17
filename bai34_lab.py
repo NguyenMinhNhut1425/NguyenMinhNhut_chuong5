@@ -6,6 +6,8 @@ Created on Sat Sep 14 16:12:55 2024
 """
 
 n = int(input("Nhập vào số nguyên dương n: "))
+while n <= 0:
+    n = int(input("Nhập lại n là số nguyên dương: "))
 for i in range(2, n):
     if n % i == 0:
         print(n,"không phải là số nguyên tố")

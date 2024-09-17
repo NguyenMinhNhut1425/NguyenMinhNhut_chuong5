@@ -6,6 +6,8 @@ Created on Sat Sep 14 15:55:54 2024
 """
 
 n = int(input("Nhập vào số nguyên dương n: "))
+while n <= 0:
+    n = int(input("Nhập lại n là số nguyên dương: "))
 for i in range(1, n + 1):
     if i * i == n:
         print(n,"là số chính phương")
